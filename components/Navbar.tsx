@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import Image from "next/image";
+import Logo from "@/components/Logo";
 import { slideDown } from "@/lib/motion";
 
 const links = [
@@ -41,13 +41,7 @@ export default function Navbar() {
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="flex items-center gap-3 group"
         >
-          <Image
-            src="/logo.svg"
-            alt="RJ logo"
-            width={38}
-            height={38}
-            priority
-          />
+          <Logo size={38} />
           <div className="leading-tight">
             <div className="font-heading font-700 text-charcoal text-sm tracking-tight">
               Regmyr &amp; Jansson AB

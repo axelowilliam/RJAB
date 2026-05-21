@@ -1,5 +1,5 @@
 import { Phone, Mail } from "lucide-react";
-import Image from "next/image";
+import Logo from "@/components/Logo";
 
 export default function Footer() {
   return (
@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <Image src="/logo.svg" alt="RJ logo" width={36} height={36} />
+              <Logo size={36} />
               <span className="font-heading font-700 text-white text-base tracking-tight">
                 Regmyr &amp; Jansson AB
               </span>

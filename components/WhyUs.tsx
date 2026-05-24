@@ -57,7 +57,7 @@ export default function WhyUs() {
                 <h3 className="font-heading font-700 text-charcoal text-2xl mb-3">
                   {f.title}
                 </h3>
-                <p className="font-body text-muted text-sm leading-relaxed">
+                <p className="font-body text-muted text-sm">
                   {f.desc}
                 </p>
               </div>
@@ -77,7 +77,7 @@ export default function WhyUs() {
                 className="bg-white border border-bronze/15 rounded-lg p-6"
               >
                 <Quote size={20} className="text-bronze mb-3" />
-                <p className="font-body text-charcoal/80 text-sm leading-relaxed italic">
+                <p className="font-body text-charcoal/80 text-sm italic">
                   {quote}
                 </p>
               </div>

@@ -23,7 +23,7 @@ export default function Hero() {
         </h1>
 
         {/* Sub heading */}
-        <p className="font-body text-muted text-lg md:text-xl max-w-xl mb-3 leading-relaxed">
+        <p className="font-body text-muted text-lg md:text-xl max-w-xl mb-3">
           Certifierade och behöriga elinstallatörer. Du pratar direkt med den
           som utför jobbet, ingen mellanhand, inga överraskningar.
         </p>

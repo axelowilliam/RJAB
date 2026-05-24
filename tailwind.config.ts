@@ -15,9 +15,12 @@ const config: Config = {
         muted: "#6b6b6b",
       },
       fontFamily: {
-        heading: ["var(--font-space-grotesk)", "sans-serif"],
-        body: ["var(--font-inter)", "sans-serif"],
-        sans: ["var(--font-inter)", "sans-serif"],
+        heading: ["Outfit", "sans-serif"],
+        body: ["Inter", "sans-serif"],
+        sans: ["Inter", "sans-serif"],
+      },
+      letterSpacing: {
+        widest: "0.08em",
       },
     },
   },

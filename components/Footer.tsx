@@ -14,11 +14,11 @@ export default function Footer() {
                 Regmyr &amp; Jansson AB
               </span>
             </div>
-            <p className="font-body text-white/40 text-sm leading-relaxed max-w-xs">
+            <p className="font-body text-white/40 text-sm max-w-xs">
               Behöriga elinstallatörer för hem och företag i Skåne. Två namn
               på dörren, ett ansvar.
             </p>
-            <address className="not-italic font-body text-white/30 text-xs mt-3 leading-relaxed">
+            <address className="not-italic font-body text-white/30 text-xs mt-3">
               <strong className="text-white/40">Regmyr &amp; Jansson El AB</strong>
               <br />
               Skåne, Sverige

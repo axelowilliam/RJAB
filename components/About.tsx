@@ -17,7 +17,7 @@ export default function About() {
               Egna namn på dörren.
             </h2>
             <div className="w-12 h-1 bg-bronze mb-8" />
-            <div className="space-y-4 font-body text-muted text-base leading-relaxed">
+            <div className="space-y-4 font-body text-muted text-base">
               <p>
                 Regmyr &amp; Jansson startade vi, Alexander Jansson och Vilmer
                 Regmyr, för att bygga något eget, ett bolag där vi kan stå
@@ -42,7 +42,7 @@ export default function About() {
               <h3 className="font-heading font-700 text-bronze text-lg mb-3">
                 Verksamhetsområde
               </h3>
-              <p className="font-body text-muted text-sm leading-relaxed mb-2">
+              <p className="font-body text-muted text-sm mb-2">
                 Vi utför jobb i{" "}
                 <strong className="text-charcoal">hela Skåne</strong>. Primärt
                 jobbar vi i:
@@ -77,7 +77,7 @@ export default function About() {
               <h3 className="font-heading font-700 text-bronze text-lg mb-3">
                 Vilka vi jobbar med
               </h3>
-              <p className="font-body text-muted text-sm leading-relaxed">
+              <p className="font-body text-muted text-sm">
                 Vi jobbar med privatpersoner, bostadsrättsföreningar och
                 företag. Erfarenhet från alla tre, och vi välkomnar alla
                 typer av uppdrag.

@@ -77,7 +77,7 @@ export default function Services() {
                 <h3 className="font-heading font-700 text-charcoal text-2xl mb-2 tracking-tight">
                   {s.title}
                 </h3>
-                <p className="font-body text-muted text-sm leading-relaxed">
+                <p className="font-body text-muted text-sm">
                   {s.desc}
                 </p>
               </div>

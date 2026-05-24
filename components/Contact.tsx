@@ -72,7 +72,7 @@ export default function Contact() {
               <span className="text-charcoal font-600">595 kr/h</span>
             </div>
             <div className="border-t border-bronze/10 pt-3 mt-2">
-              <p className="font-body text-muted text-xs leading-relaxed">
+              <p className="font-body text-muted text-xs">
                 Vi föredrar fastpris, det är bättre för dig och för oss.
                 Kontakta oss för en kostnadsfri offert.
               </p>

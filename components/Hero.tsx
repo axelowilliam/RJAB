@@ -2,11 +2,11 @@ import { Phone, Mail } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-white border-b border-bronze/10">
+    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-white border-b border-bronze/10 px-5">
       {/* Bronze accent line */}
       <div className="absolute left-0 top-0 bottom-0 w-1 bg-bronze" />
 
-      <div className="relative z-10 max-w-6xl mx-auto px-5 pt-24 pb-20">
+      <div className="relative z-10 max-w-6xl mx-auto w-full pt-24 pb-20">
         {/* Eyebrow */}
         <p className="font-body text-bronze text-sm tracking-widest uppercase mb-6">
           Regmyr &amp; Jansson El AB — Elektriker i Skåne
@@ -17,7 +17,8 @@ export default function Hero() {
           className="font-heading font-800 text-charcoal leading-none mb-6"
           style={{ fontSize: "clamp(3.5rem, 10vw, 8rem)" }}
         >
-          Två elektriker.{" "}
+          Två elektriker.
+          <br />
           <span className="text-bronze">Ett ansvar.</span>
         </h1>
 

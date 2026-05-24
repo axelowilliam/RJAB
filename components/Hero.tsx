@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto w-full pt-24 pb-20">
         {/* Eyebrow */}
         <p className="font-body text-bronze text-sm tracking-widest uppercase mb-6">
-          Regmyr &amp; Jansson El AB — Elektriker i Skåne
+          Regmyr &amp; Jansson El AB, Elektriker i Skåne
         </p>
 
         {/* Headline */}
@@ -17,15 +17,15 @@ export default function Hero() {
           className="font-heading font-800 text-charcoal leading-none mb-6"
           style={{ fontSize: "clamp(3.5rem, 10vw, 8rem)" }}
         >
-          Två elektriker.
+          Två elektriker
           <br />
-          <span className="text-bronze">Ett ansvar.</span>
+          <span className="text-bronze">Ett ansvar</span>
         </h1>
 
         {/* Sub heading */}
         <p className="font-body text-muted text-lg md:text-xl max-w-xl mb-3 leading-relaxed">
           Certifierade och behöriga elinstallatörer. Du pratar direkt med den
-          som utför jobbet — ingen mellanhand, inga överraskningar.
+          som utför jobbet, ingen mellanhand, inga överraskningar.
         </p>
         <p className="font-body text-bronze text-sm mb-10 font-500">
           Vi tar emot jobb nu och är i full drift från 8 juni 2025.

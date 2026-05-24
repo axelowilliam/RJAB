@@ -15,7 +15,7 @@ export default function Contact() {
             Hör av dig
           </h2>
           <p className="font-body text-muted text-base max-w-md mx-auto">
-            Berätta vad du behöver hjälp med — vi återkommer snabbt med ett
+            Berätta vad du behöver hjälp med, vi återkommer snabbt med ett
             ärligt svar och ett fast pris. Kostnadsfri offert.
           </p>
           <div className="mt-6 mx-auto w-12 h-1 bg-bronze" />
@@ -73,7 +73,7 @@ export default function Contact() {
             </div>
             <div className="border-t border-bronze/10 pt-3 mt-2">
               <p className="font-body text-muted text-xs leading-relaxed">
-                Vi föredrar fastpris — det är bättre för dig och för oss.
+                Vi föredrar fastpris, det är bättre för dig och för oss.
                 Kontakta oss för en kostnadsfri offert.
               </p>
             </div>

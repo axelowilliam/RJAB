@@ -15,8 +15,9 @@ const config: Config = {
         muted: "#6b6b6b",
       },
       fontFamily: {
-        heading: ["var(--font-barlow)", "sans-serif"],
-        body: ["var(--font-dm-sans)", "sans-serif"],
+        heading: ["var(--font-space-grotesk)", "sans-serif"],
+        body: ["var(--font-inter)", "sans-serif"],
+        sans: ["var(--font-inter)", "sans-serif"],
       },
     },
   },

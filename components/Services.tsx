@@ -12,12 +12,12 @@ const services = [
   {
     icon: Zap,
     title: "Elinstallation",
-    desc: "Vi installerar el i villor, lägenheter och lokaler — från grunden eller som komplettering till befintlig anläggning. Allt utförs enligt gällande regelverk av behörig elinstallatör.",
+    desc: "Vi installerar el i villor, lägenheter och lokaler, från grunden eller som komplettering till befintlig anläggning. Allt utförs enligt gällande regelverk av behörig elinstallatör.",
   },
   {
     icon: Search,
     title: "Felsökning",
-    desc: "Något fungerar inte som det ska? Vi går metodiskt igenom anläggningen, hittar felet och åtgärdar det. Inga vilda gissningar — bara ett ordentligt jobb.",
+    desc: "Något fungerar inte som det ska? Vi går metodiskt igenom anläggningen, hittar felet och åtgärdar det. Inga vilda gissningar, bara ett ordentligt jobb.",
   },
   {
     icon: ShieldCheck,
@@ -37,12 +37,12 @@ const services = [
   {
     icon: Home,
     title: "Nybyggnation",
-    desc: "Vi utför elarbeten i nybyggnation av Attefalls hus, villor och sommarhus. Hela installationen från grund till färdigt — du slipper hålla koll på flera hantverkare.",
+    desc: "Vi utför elarbeten i nybyggnation av Attefalls hus, villor och sommarhus. Hela installationen från grund till färdigt, du slipper hålla koll på flera hantverkare.",
   },
   {
     icon: Wrench,
     title: "Renovering & tillbyggnad",
-    desc: "Bygger du om eller till? Vi sköter elarbetena och samordnar med övriga hantverkare. Du får en elinstallatör som är med hela vägen — inte en som dyker upp i slutet.",
+    desc: "Bygger du om eller till? Vi sköter elarbetena och samordnar med övriga hantverkare. Du får en elinstallatör som är med hela vägen, inte en som dyker upp i slutet.",
   },
 ];
 

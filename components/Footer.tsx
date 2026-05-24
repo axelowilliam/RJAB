@@ -16,8 +16,15 @@ export default function Footer() {
             </div>
             <p className="font-body text-white/40 text-sm leading-relaxed max-w-xs">
               Behöriga elinstallatörer för hem och företag i Skåne. Två namn
-              på dörren — ett ansvar.
+              på dörren, ett ansvar.
             </p>
+            <address className="not-italic font-body text-white/30 text-xs mt-3 leading-relaxed">
+              <strong className="text-white/40">Regmyr &amp; Jansson El AB</strong>
+              <br />
+              Skåne, Sverige
+              <br />
+              Org.nr: 559575-0174
+            </address>
           </div>
 
           {/* Services */}
@@ -61,7 +68,6 @@ export default function Footer() {
                 info@regmyrjansson.se
               </a>
               <p className="text-white/30 text-xs mt-2">Vardagar 07:00 – 17:00</p>
-              <p className="text-white/30 text-xs">Org.nr: 559575-0174</p>
             </div>
           </div>
         </div>

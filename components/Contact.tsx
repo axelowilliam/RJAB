@@ -24,7 +24,7 @@ export default function Contact() {
         {/* Contact buttons */}
         <div className="flex flex-col sm:flex-row gap-5 justify-center mb-12">
           <a
-            href="tel:+46409191350"
+            href="tel:+4640919135"
             className="group flex items-center justify-center gap-4 bg-bronze text-white font-body font-600 text-lg px-10 py-6 rounded min-h-[80px] hover:bg-bronze/90 transition-colors duration-200"
           >
             <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">

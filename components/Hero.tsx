@@ -34,7 +34,7 @@ export default function Hero() {
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row gap-4">
           <a
-            href="tel:+46409191350"
+            href="tel:+4640919135"
             className="inline-flex items-center justify-center gap-2 bg-bronze text-white font-body font-600 text-base px-7 py-4 rounded min-h-[52px] hover:bg-bronze/90 transition-colors"
           >
             <Phone size={18} />

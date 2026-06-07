@@ -44,7 +44,7 @@ const jsonLd = {
       "@id": `${siteUrl}/#business`,
       name: "Regmyr & Jansson AB",
       url: siteUrl,
-      telephone: "+46409191350",
+      telephone: "+4640919135",
       email: "info@regmyrjansson.se",
       priceRange: "850 kr/h",
       image: `${siteUrl}/logo.svg`,
@@ -95,7 +95,7 @@ const jsonLd = {
       },
       contactPoint: {
         "@type": "ContactPoint",
-        telephone: "+46409191350",
+        telephone: "+4640919135",
         email: "info@regmyrjansson.se",
         contactType: "customer service",
         availableLanguage: "Swedish",

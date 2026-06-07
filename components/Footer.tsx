@@ -54,7 +54,7 @@ export default function Footer() {
             </h4>
             <div className="space-y-3 font-body text-sm">
               <a
-                href="tel:+46409191350"
+                href="tel:+4640919135"
                 className="flex items-center gap-2 text-white/50 hover:text-bronze transition-colors"
               >
                 <Phone size={15} />

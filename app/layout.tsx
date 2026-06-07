@@ -6,7 +6,7 @@ const siteUrl = "https://regmyrjansson.se";
 export const metadata: Metadata = {
   title: {
     default: "Auktoriserad elektriker i Skåne | Regmyr & Jansson",
-    template: "%s | Regmyr & Jansson El AB",
+    template: "%s | Regmyr & Jansson AB",
   },
   description:
     "Certifierade och behöriga elinstallatörer i Skåne. Elinstallation, felsökning, laddstolpe och belysning. Ring direkt, inga mellanhänder, inga överraskningar.",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "sv_SE",
     url: siteUrl,
-    siteName: "Regmyr & Jansson El AB",
+    siteName: "Regmyr & Jansson AB",
     title: "Auktoriserad elektriker i Skåne | Regmyr & Jansson",
     description:
       "Certifierade och behöriga elinstallatörer i Skåne. Elinstallation, felsökning, laddstolpe och belysning. Ring direkt, inga mellanhänder.",
@@ -42,7 +42,7 @@ const jsonLd = {
     {
       "@type": "Electrician",
       "@id": `${siteUrl}/#business`,
-      name: "Regmyr & Jansson El AB",
+      name: "Regmyr & Jansson AB",
       url: siteUrl,
       telephone: "+46409191350",
       email: "info@regmyrjansson.se",
@@ -87,7 +87,7 @@ const jsonLd = {
     {
       "@type": "Organization",
       "@id": `${siteUrl}/#organization`,
-      name: "Regmyr & Jansson El AB",
+      name: "Regmyr & Jansson AB",
       url: siteUrl,
       logo: {
         "@type": "ImageObject",

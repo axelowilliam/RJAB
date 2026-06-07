@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx next *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(python3 -c \"import sys; html=sys.stdin.read\\(\\); print\\('CSS link found' if '_next/static/css' in html else 'NO CSS LINK'\\); print\\('Error found' if 'statusCode' in html or 'Module not found' in html else 'No error'\\)\")",
+      "Bash(git add *)"
+    ]
+  }
+}

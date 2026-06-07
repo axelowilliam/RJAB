@@ -19,7 +19,7 @@ export default function Footer() {
               på dörren, ett ansvar.
             </p>
             <address className="not-italic font-body text-white/30 text-xs mt-3">
-              <strong className="text-white/40">Regmyr &amp; Jansson El AB</strong>
+              <strong className="text-white/40">Regmyr &amp; Jansson AB</strong>
               <br />
               Skåne, Sverige
               <br />
@@ -74,7 +74,7 @@ export default function Footer() {
 
         <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="font-body text-white/25 text-xs">
-            © 2025 Regmyr &amp; Jansson El AB. Alla rättigheter förbehållna.
+            © 2025 Regmyr &amp; Jansson AB. Alla rättigheter förbehållna.
           </p>
           <p className="font-body text-white/20 text-xs">
             Elarbeten i Skåne utförda med yrkesheder.

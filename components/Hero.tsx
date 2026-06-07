@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto w-full pt-24 pb-20">
         {/* Eyebrow */}
         <p className="font-body text-bronze text-sm tracking-widest uppercase mb-6">
-          Regmyr &amp; Jansson El AB, Elektriker i Skåne
+          Regmyr &amp; Jansson AB, Elektriker i Skåne
         </p>
 
         {/* Headline */}

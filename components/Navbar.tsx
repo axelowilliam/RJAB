@@ -73,7 +73,7 @@ export default function Navbar() {
         {/* Desktop right – CTA */}
         <div className="hidden md:flex ml-auto">
           <a
-            href="tel:+46704128391"
+            href="tel:+46409191350"
             className="px-4 py-2 bg-bronze text-white text-sm font-body font-600 rounded hover:bg-bronze/90 transition-colors duration-200"
           >
             Ring oss
@@ -104,10 +104,10 @@ export default function Navbar() {
               ))}
               <li className="pt-3">
                 <a
-                  href="tel:+46704128391"
+                  href="tel:+46409191350"
                   className="block w-full text-center py-3 bg-bronze text-white font-body font-600 rounded"
                 >
-                  Ring oss - 070-412 83 91
+                  Ring oss - 040-91 91 35
                 </a>
               </li>
             </ul>

@@ -54,11 +54,11 @@ export default function Footer() {
             </h4>
             <div className="space-y-3 font-body text-sm">
               <a
-                href="tel:+46704128391"
+                href="tel:+46409191350"
                 className="flex items-center gap-2 text-white/50 hover:text-bronze transition-colors"
               >
                 <Phone size={15} />
-                070-412 83 91
+                040-91 91 35
               </a>
               <a
                 href="mailto:info@regmyrjansson.se"

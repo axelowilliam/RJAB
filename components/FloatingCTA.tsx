@@ -12,7 +12,7 @@ export default function FloatingCTA() {
       className="fixed bottom-0 left-0 right-0 z-50 md:hidden px-4 pb-4"
     >
       <a
-        href="tel:+46704128391"
+        href="tel:+46409191350"
         className="flex items-center justify-center gap-3 w-full bg-bronze text-white font-body font-600 text-base py-4 rounded-lg shadow-lg min-h-[56px]"
       >
         <Phone size={20} />

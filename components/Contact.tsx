@@ -54,31 +54,6 @@ export default function Contact() {
           </a>
         </div>
 
-        {/* Pricing */}
-        <div className="bg-cream border border-bronze/15 rounded-lg p-6 mb-8 text-left max-w-sm mx-auto">
-          <div className="flex items-center gap-2 mb-4">
-            <Tag size={15} className="text-bronze" />
-            <span className="font-body text-bronze text-xs tracking-widest uppercase">
-              Priser ink. moms
-            </span>
-          </div>
-          <div className="space-y-2">
-            <div className="flex justify-between font-body text-sm">
-              <span className="text-muted">Timpris</span>
-              <span className="text-charcoal font-600">850 kr/h</span>
-            </div>
-            <div className="flex justify-between font-body text-sm">
-              <span className="text-muted">Efter ROT-avdrag</span>
-              <span className="text-charcoal font-600">595 kr/h</span>
-            </div>
-            <div className="border-t border-bronze/10 pt-3 mt-2">
-              <p className="font-body text-muted text-xs">
-                Vi föredrar fastpris, det är bättre för dig och för oss.
-                Kontakta oss för en kostnadsfri offert.
-              </p>
-            </div>
-          </div>
-        </div>
 
         {/* Opening hours */}
         <div className="inline-flex items-center gap-3 bg-cream border border-charcoal/10 rounded-full px-6 py-3">

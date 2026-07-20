@@ -47,8 +47,12 @@ const jsonLd = {
       telephone: "+4640919135",
       email: "info@regmyrjansson.se",
       image: `${siteUrl}/logo.svg`,
+      taxID: "559575-0174",
       address: {
         "@type": "PostalAddress",
+        streetAddress: "Flaggskeppsgatan 4",
+        postalCode: "211 14",
+        addressLocality: "Malmö",
         addressRegion: "Skåne",
         addressCountry: "SE",
       },

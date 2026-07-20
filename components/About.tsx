@@ -30,10 +30,10 @@ export default function About() {
               </p>
               <p>
                 Vi utför elarbeten i Malmö, Trelleborg, Lund, Vellinge,
-                Höllviken, Skanör, Falsterbo, Ystad och Staffanstorp. Det
-                finns inga undermontörer, inga vikarier och ingen callcenter.
-                Bara två elektriker som vill göra ett bra jobb och bygga ett
-                rykte som håller.
+                Höllviken, Skanör, Falsterbo, Ystad, Staffanstorp, Helsingborg
+                och Kristianstad. Det finns inga undermontörer, inga vikarier
+                och ingen callcenter. Bara två elektriker som vill göra ett bra
+                jobb och bygga ett rykte som håller.
               </p>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function About() {
               </p>
               <p className="font-body text-charcoal/70 text-sm">
                 Trelleborg · Malmö · Vellinge · Höllviken · Skanör/Falsterbo ·
-                Ystad · Staffanstorp · Lund
+                Ystad · Staffanstorp · Lund · Helsingborg · Kristianstad
               </p>
               <p className="font-body text-muted text-xs mt-3">
                 Har du ett litet jobb lite längre bort? Vi hittar alltid en

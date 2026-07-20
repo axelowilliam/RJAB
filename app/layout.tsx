@@ -46,7 +46,6 @@ const jsonLd = {
       url: siteUrl,
       telephone: "+4640919135",
       email: "info@regmyrjansson.se",
-      priceRange: "850 kr/h",
       image: `${siteUrl}/logo.svg`,
       address: {
         "@type": "PostalAddress",
@@ -81,6 +80,60 @@ const jsonLd = {
           dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
           opens: "07:00",
           closes: "17:00",
+        },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      "@id": `${siteUrl}/#faq`,
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Är Regmyr & Jansson behöriga elinstallatörer?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Ja, vi är certifierade och behöriga elinstallatörer och arbetar enligt elsäkerhetslagen. Vi ansvarar juridiskt för att allt arbete är rätt utfört.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Vilka områden i Skåne jobbar ni i?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Vi utför elarbeten i hela Skåne. Primärt jobbar vi i Trelleborg, Malmö, Vellinge, Höllviken, Skanör, Falsterbo, Ystad, Staffanstorp och Lund.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Vad kostar en elektriker i Skåne?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Vi föredrar fastpris framför löpande räkning — det är tydligare för dig och oss. Kontakta oss för en kostnadsfri offert.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Utför ni elinstallation i villor och lägenheter?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Ja, vi installerar el i villor, lägenheter och lokaler — från grunden eller som komplettering till befintlig anläggning.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Installerar ni laddstolpar och laddboxar för elbil?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Ja, vi installerar laddboxar för elbil i villor och fastigheter i Skåne. Kontakta oss för offert.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Kan jag prata direkt med elektrikern?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Ja, när du ringer Regmyr & Jansson pratar du direkt med Alexander eller Vilmer — ingen bokningscentral eller mellanhänder.",
+          },
         },
       ],
     },

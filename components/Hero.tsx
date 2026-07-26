@@ -15,7 +15,7 @@ export default function Hero() {
         {/* Headline */}
         <h1
           className="font-heading font-800 text-charcoal leading-none mb-6"
-          style={{ fontSize: "clamp(3.5rem, 10vw, 8rem)" }}
+          style={{ fontSize: "clamp(2.5rem, 7vw, 5.5rem)" }}
         >
           Två elektriker
           <br />
@@ -27,10 +27,6 @@ export default function Hero() {
           Certifierade och behöriga elinstallatörer. Du pratar direkt med den
           som utför jobbet, ingen mellanhand, inga överraskningar.
         </p>
-        <p className="font-body text-bronze text-sm mb-10 font-500">
-          Vi tar emot jobb nu och är i full drift från 8 juni 2025.
-        </p>
-
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row gap-4">
           <a
@@ -50,7 +46,7 @@ export default function Hero() {
         </div>
 
         {/* Stats row */}
-        <div className="mt-16 flex gap-10 border-t border-charcoal/10 pt-8">
+        <div className="mt-10 flex gap-10 border-t border-charcoal/10 pt-8">
           {[
             { value: "2", label: "Grundare" },
             { value: "Skåne", label: "Verksamhetsområde" },

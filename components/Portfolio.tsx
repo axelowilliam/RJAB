@@ -7,8 +7,8 @@ const projects = [
   {
     tag: "Elinstallation",
     title: "Byte av elcentral",
-    meta: "Privatperson · Falsterbo · 2026",
-    images: ["/uppdrag/elcentral-vellinge/1.jpg", "/uppdrag/elcentral-vellinge/2.jpg", "/uppdrag/elcentral-vellinge/3.jpg"],
+    meta: "Privatperson · Staffanstorp · 2026",
+    images: ["/uppdrag/elcentral-staffanstorp/1.jpg", "/uppdrag/elcentral-staffanstorp/2.jpg"],
     review: "Snabbt, snyggt och till rätt pris. Alexander förklarade allt längs vägen och lämnade inget ogjort.",
     author: "",
   },

@@ -65,25 +65,6 @@ export default function WhyUs() {
           })}
         </div>
 
-        {/* Testimonials */}
-        <div>
-          <p className="font-body text-bronze text-sm tracking-widest uppercase mb-8 text-center">
-            Vad kunderna säger
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {testimonials.map((quote, i) => (
-              <div
-                key={i}
-                className="bg-white border border-bronze/15 rounded-lg p-6"
-              >
-                <Quote size={20} className="text-bronze mb-3" />
-                <p className="font-body text-charcoal/80 text-sm italic">
-                  {quote}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

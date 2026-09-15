@@ -17,7 +17,7 @@ export default function TestHero() {
 
       {/* Mobile: eyebrow pinned to top */}
       <div className="md:hidden relative z-10 w-full max-w-6xl mx-auto px-5 pt-8">
-        <p className="font-body text-white/60 text-xs tracking-widest uppercase">
+        <p className="font-body text-white text-xs tracking-widest uppercase">
           Auktoriserade elinstallatörer · Malmö &amp; Skåne
         </p>
       </div>
@@ -29,7 +29,7 @@ export default function TestHero() {
       <div className="relative z-10 w-full max-w-6xl mx-auto px-5 pb-14 md:pb-20">
 
         {/* Desktop eyebrow */}
-        <p className="hidden md:block font-body text-white/60 text-xs tracking-widest uppercase mb-4">
+        <p className="hidden md:block font-body text-white text-xs tracking-widest uppercase mb-4">
           Auktoriserade elinstallatörer · Malmö &amp; Skåne
         </p>
 
@@ -39,10 +39,10 @@ export default function TestHero() {
         >
           Två elektriker
           <br />
-          <span className="text-bronze">Ett ansvar</span>
+          <span className="text-white">Ett ansvar</span>
         </h1>
 
-        <p className="font-body text-white/75 text-base md:text-lg max-w-lg mb-8 leading-relaxed">
+        <p className="font-body text-white text-base md:text-lg max-w-lg mb-8 leading-relaxed">
           Certifierade och behöriga elinstallatörer i Skåne. Du pratar direkt
           med den som utför jobbet - ingen mellanhand, inga överraskningar.
         </p>
@@ -68,7 +68,7 @@ export default function TestHero() {
         {/* Stats */}
         <div className="flex gap-8 border-t border-white/15 pt-7">
           {[
-            { value: "2", label: "Grundare" },
+            { value: "★★★★★", label: "Google recensioner" },
             { value: "Skåne", label: "Verksamhetsområde" },
             { value: "100%", label: "Behöriga" },
           ].map((s) => (
@@ -76,7 +76,7 @@ export default function TestHero() {
               <div className="font-heading font-700 text-bronze text-2xl leading-none">
                 {s.value}
               </div>
-              <div className="font-body text-white/50 text-xs mt-1 tracking-wide">
+              <div className="font-body text-white/80 text-xs mt-1 tracking-wide">
                 {s.label}
               </div>
             </div>

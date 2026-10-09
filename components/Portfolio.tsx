@@ -253,7 +253,7 @@ export default function Portfolio() {
   const visible = showAll ? projects : projects.slice(0, INITIAL_SHOW);
 
   return (
-    <section className="bg-cream py-24 px-5">
+    <section id="uppdrag" className="bg-cream py-24 px-5">
       <div className="max-w-6xl mx-auto">
         <div className="mb-14">
           <p className="font-body text-bronze text-sm tracking-widest uppercase mb-3">

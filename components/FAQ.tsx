@@ -52,25 +52,32 @@ export default function FAQ() {
         <div className="divide-y divide-charcoal/10">
           {faqs.map((faq, i) => (
             <div key={i}>
-              <button
-                className="w-full flex items-center justify-between gap-4 py-5 text-left"
-                onClick={() => setOpen(open === i ? null : i)}
+              <h3>
+                <button
+                  className="w-full flex items-center justify-between gap-4 py-5 text-left"
+                  onClick={() => setOpen(open === i ? null : i)}
+                  aria-expanded={open === i}
+                  aria-controls={`faq-svar-${i}`}
+                >
+                  <span className="font-heading font-700 text-charcoal text-lg">
+                    {faq.q}
+                  </span>
+                  <ChevronDown
+                    size={20}
+                    aria-hidden="true"
+                    className={`text-bronze flex-shrink-0 transition-transform duration-200 ${
+                      open === i ? "rotate-180" : ""
+                    }`}
+                  />
+                </button>
+              </h3>
+              <p
+                id={`faq-svar-${i}`}
+                hidden={open !== i}
+                className="font-body text-muted text-base pb-5"
               >
-                <span className="font-heading font-700 text-charcoal text-lg">
-                  {faq.q}
-                </span>
-                <ChevronDown
-                  size={20}
-                  className={`text-bronze flex-shrink-0 transition-transform duration-200 ${
-                    open === i ? "rotate-180" : ""
-                  }`}
-                />
-              </button>
-              {open === i && (
-                <p className="font-body text-muted text-base pb-5">
-                  {faq.a}
-                </p>
-              )}
+                {faq.a}
+              </p>
             </div>
           ))}
         </div>

@@ -115,7 +115,7 @@ const jsonLd = {
           name: "Vad kostar en elektriker i Skåne?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Vi föredrar fastpris framför löpande räkning — det är tydligare för dig och oss. Kontakta oss för en kostnadsfri offert.",
+            text: "Vi föredrar fastpris framför löpande räkning - det är tydligare för dig och oss. Kontakta oss för en kostnadsfri offert.",
           },
         },
         {
@@ -123,7 +123,7 @@ const jsonLd = {
           name: "Utför ni elinstallation i villor och lägenheter?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Ja, vi installerar el i villor, lägenheter och lokaler — från grunden eller som komplettering till befintlig anläggning.",
+            text: "Ja, vi installerar el i villor, lägenheter och lokaler - från grunden eller som komplettering till befintlig anläggning.",
           },
         },
         {
@@ -139,7 +139,7 @@ const jsonLd = {
           name: "Kan jag prata direkt med elektrikern?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Ja, när du ringer Regmyr & Jansson pratar du direkt med Alexander eller Vilmer — ingen bokningscentral eller mellanhänder.",
+            text: "Ja, när du ringer Regmyr & Jansson pratar du direkt med Alexander eller Vilmer - ingen bokningscentral eller mellanhänder.",
           },
         },
       ],
@@ -153,6 +153,10 @@ const jsonLd = {
         "@type": "ImageObject",
         url: `${siteUrl}/logo.svg`,
       },
+      sameAs: [
+        "https://www.linkedin.com/company/regmyr-jansson-ab/",
+        "https://www.facebook.com/profile.php?id=61590783842308",
+      ],
       contactPoint: {
         "@type": "ContactPoint",
         telephone: "+4640919135",
@@ -178,6 +182,9 @@ export default function RootLayout({
   return (
     <html lang="sv">
       <body className="font-body antialiased bg-white text-charcoal">
+        <a href="#innehall" className="skip-link">
+          Hoppa till innehållet
+        </a>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

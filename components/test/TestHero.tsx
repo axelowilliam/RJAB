@@ -7,11 +7,11 @@ export default function TestHero() {
       {/* Background image */}
       <img
         src="/hero.jpg"
-        alt="Elektriker i arbete - Regmyr & Jansson, Malmö"
+        alt="Grundarna av Regmyr & Jansson framför företagets två servicebilar"
         className="absolute inset-0 w-full h-full object-cover object-center"
       />
 
-      {/* Dark overlay — base layer + gradient from bottom */}
+      {/* Dark overlay - base layer + gradient from bottom */}
       <div className="absolute inset-0 bg-black/35" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
 
@@ -22,7 +22,7 @@ export default function TestHero() {
         </p>
       </div>
 
-      {/* Spacer — mobile only, pushes bottom content down */}
+      {/* Spacer - mobile only, pushes bottom content down */}
       <div className="flex-1 md:hidden" />
 
       {/* Content */}
@@ -68,12 +68,16 @@ export default function TestHero() {
         {/* Stats */}
         <div className="flex gap-8 border-t border-white/15 pt-7">
           {[
-            { value: "★★★★★", label: "Google recensioner" },
+            { value: "★★★★★", label: "Google recensioner", srValue: "5 av 5 stjärnor" },
             { value: "Skåne", label: "Verksamhetsområde" },
             { value: "100%", label: "Behöriga" },
           ].map((s) => (
             <div key={s.label}>
-              <div className="font-heading font-700 text-bronze text-2xl leading-none">
+              <div
+                className="font-heading font-700 text-bronze text-2xl leading-none"
+                role={s.srValue ? "img" : undefined}
+                aria-label={s.srValue}
+              >
                 {s.value}
               </div>
               <div className="font-body text-white/80 text-xs mt-1 tracking-wide">

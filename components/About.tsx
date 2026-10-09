@@ -20,13 +20,13 @@ export default function About() {
             <div className="space-y-4 font-body text-muted text-base">
               <p>
                 Regmyr &amp; Jansson startade vi, Alexander Jansson och Vilmer
-                Regmyr, för att bygga något eget — ett bolag där vi kan stå
+                Regmyr, för att bygga något eget - ett bolag där vi kan stå
                 för varje jobb med våra egna namn.
               </p>
               <p>
                 Som behöriga elinstallatörer i Skåne tar vi fullt ansvar för
                 det vi utför. Inget mellanting mellan dig och den som gör
-                jobbet — du vet alltid vem du pratar med och vem som dyker upp.
+                jobbet - du vet alltid vem du pratar med och vem som dyker upp.
               </p>
               <p>
                 Vi utför elarbeten i Malmö, Trelleborg, Lund, Vellinge,

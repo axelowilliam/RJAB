@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bronze: "#9D7134",
+        bronze: "#94692f",
         charcoal: "#1a1a1a",
         cream: "#faf8f5",
         muted: "#6b6b6b",

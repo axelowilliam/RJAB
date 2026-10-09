@@ -6,7 +6,7 @@ export default function Logo({ size = 40 }: { size?: number }) {
       src={`${basePath}/logo.svg`}
       width={size}
       height={size}
-      alt="Regmyr & Jansson logotyp"
+      alt=""
     />
   );
 }

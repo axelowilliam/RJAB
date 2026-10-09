@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   description:
     "Certifierade och behöriga elinstallatörer i Skåne. Elinstallation, felsökning, laddstolpe och belysning. Ring direkt, inga mellanhänder, inga överraskningar.",
   metadataBase: new URL(siteUrl),
+  verification: {
+    google: "W_tkiTxpk-niLUJGHrDv3oKXcGMXaCyQmEzni2dAT2I",
+  },
   alternates: {
     canonical: "/",
   },
